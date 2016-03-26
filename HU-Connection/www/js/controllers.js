@@ -6,9 +6,9 @@ angular.module('app.controllers', [])
    
 .controller('finderCtrl', function($scope) {
 	var cardTypes = [
-        { image: 'img/pic2.png', title: 'So much grass #hippster'},
-        { image: 'img/pic3.png', title: 'Way too much Sand, right?'},
-        { image: 'img/pic4.png', title: 'Beautiful sky from wherever'},
+        { image: 'img/prajjwal.jpg', title: 'Prajjwal Dangal: Good in web app dev', text: 'I have good profeciency with Djnago web framework'},
+        { image: 'img/anish.jpg', title: 'Make a birthday wishing mobile app'},
+        { image: 'img/sudheesh.jpg', title: '100% GPS from wherever'},
     ];
  
     $scope.cards = [];
