@@ -81,6 +81,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     controller: 'loginCtrl'
   })
 
+  .state('tabsController.prajjwalDangal', {
+    url: '/page8',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/prajjwalDangal.html',
+        controller: 'prajjwalDangalCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/Home')
 
   

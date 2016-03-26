@@ -3,15 +3,15 @@
         <form class="list">
             <ion-list>
                 <label class="item item-input">
-                    <input type="text" placeholder="Username" ng-model=username>
+                    <input type="text" placeholder="Username">
                 </label>
                 <label class="item item-input">
-                    <input type="password" placeholder="Password" ng-model=password>
+                    <input type="password" placeholder="Password">
                 </label>
             </ion-list>
             <div class="spacer" style="width: 285px; height: 62px;"></div>
             <div class="spacer" style="height: 40px;"></div>
-            <button id="login-button6" class="button button-positive  button-block" ng-click="login(username, password)">Log in</button>
+            <a ui-sref="tabsController.profile" id="login-button6" class="button button-positive  button-block">Log in</a>
             <a ui-sref="signup" id="login-button7" class="button button-positive  button-block button-clear">Or create an account</a>
         </form>
     </ion-content>
