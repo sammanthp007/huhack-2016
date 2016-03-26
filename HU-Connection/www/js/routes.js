@@ -75,6 +75,12 @@ angular.module('app.routes', ['ionicUIRouter'])
     controller: 'signupCtrl'
   })
 
+  .state('login', {
+    url: '/page7',
+    templateUrl: 'templates/login.html',
+    controller: 'loginCtrl'
+  })
+
 $urlRouterProvider.otherwise('/Home')
 
   
